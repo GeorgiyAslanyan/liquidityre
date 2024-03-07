@@ -1,7 +1,10 @@
 import Advantages from "@/components/Advantages";
 import Contacts from "@/components/Contacts";
 import Divider from "@/components/Divider";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Roadmap from "@/components/Roadmap";
+import Security from "@/components/Security";
 import WhyUs from "@/components/WhyUs";
 import Image from "next/image";
 
@@ -20,6 +23,10 @@ export default function Home() {
       <Divider />
       <Contacts />
       <Divider />
+      <Roadmap />
+      <Divider />
+      <Security />
+      <Footer />
       </div>
     </main>
   );
