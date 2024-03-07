@@ -63,8 +63,8 @@ const Advantages = () => {
           </div>
           <p className="text-[32px] font-semibold">
             Decentralized{" "}
-            <span className="text-primary">Liquidity Listing</span> and{" "}
-            <span className="text-primary">Auction Platform</span>
+            <span className="text-primary">Venture Capital</span> for{" "}
+            <span className="text-primary">Emerging Projects</span>
           </p>
           <p className="text-landingSubtext">
             ØxLiquidity is poised to transform into a decentralized venture
