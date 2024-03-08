@@ -44,9 +44,10 @@ const Hero = () => {
           src="/hero/linetree.svg"
           alt="clock"
           width={787}
-          height={35}/>
-          <div className='grid grid-cols-3 gap-20 mt-7'>
-                {cardArr.map(el => <div key={el.title} className="py-6 w-[316px] rounded-[20px] border border-secondary bg-backingDark flex flex-col gap-2 items-center justify-center">
+          height={35}
+          className="sm:px-[100px] lg:px-0"/>
+          <div className='grid grid-cols-1 md:grid-cols-3 px-5 gap-20 mt-7 w-full'>
+                {cardArr.map(el => <div key={el.title} className="py-6 w-full px-5 lg:px-20 rounded-[20px] border border-secondary bg-backingDark flex flex-col gap-2 items-center justify-center">
                     <p className='text-lg font-semibold'>{el.title}</p>
                     <p className='text-[32px] text-primary'>{el.description}</p>
                 </div>)}

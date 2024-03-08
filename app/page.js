@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex z-10 mx-12 mt-[105px] rounded-xl bg-gradient-to-b from-primary via-backingDark to-backingDark p-[1px]">
+    <main className="flex z-10 mx-[30px] lg:mx-12 mt-[105px] rounded-xl bg-gradient-to-b from-primary via-backingDark to-backingDark p-[1px]">
       <div className="bg-backingDark rounded-xl w-full">
       <Hero />
       <Advantages />

@@ -6,8 +6,16 @@ const Footer = () => {
     <div className='relative mb-10 p-7 overflow-hidden rounded-[30px] border border-secondary bg-moduleDark flex justify-between gap-32 flex-col'>
         <Image src="/gradient.svg" alt="footer" width={1920} height={500} className='w-full pointer-events-none absolute bottom-0 rotate-180 object-contain left-0'/>
         <div className='flex justify-between gap-10'>
-            <div className='flex gap-32 items-start'>
+            <div className='flex flex-col lg:flex-row gap-10 lg:gap-32 items-start w-full'>
+                <div className='flex justify-between w-full lg:w-fit'>
                 <Image src="/navbar/logo.svg" alt="logo" width={180} height={33} />
+                <div className='flex lg:hidden gap-5 items-start'>
+                <Image src="/footer/telegram.svg" alt="telegram" width={28} height={24} className='h-7' />
+                <Image src="/footer/x.svg" alt="x" width={26} height={24} className='h-7' />
+                <Image src="/footer/gitbook.svg" alt="gitbook" width={33} height={24} className='h-7' />
+                <Image src="/footer/medium.svg" alt="medium" width={42} height={24} className='h-7' />
+            </div>
+                </div>
                 <div className='flex gap-[70px]'>
                     <div className='flex flex-col gap-4'>
                         <p className='text-primary font-semibold'>About</p>
@@ -29,7 +37,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-5 items-start'>
+            <div className='gap-5 items-start hidden lg:flex min-w-[200px]'>
                 <Image src="/footer/telegram.svg" alt="telegram" width={28} height={24} className='h-7' />
                 <Image src="/footer/x.svg" alt="x" width={26} height={24} className='h-7' />
                 <Image src="/footer/gitbook.svg" alt="gitbook" width={33} height={24} className='h-7' />

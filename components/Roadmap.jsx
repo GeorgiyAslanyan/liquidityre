@@ -58,11 +58,11 @@ const Roadmap = () => {
   return (
     <div className="flex flex-col gap-10 items-center">
       <h2 className="text-5xl">Roadmap</h2>
-      <div className="flex gap-7 w-full justify-stretch">
+      <div className="flex gap-7 w-full justify-stretch overflow-y-auto">
         {cardArr.map((el, i) => (
           <div
             key={el.title}
-            className={`border p-7 flex ${(i === 2 || i === 3) ? "w-[160%]" : "w-full"} flex-col gap-3 rounded-[30px] ${
+            className={`border p-7 flex ${(i === 2 || i === 3) ? "min-w-[253px] w-[160%]" : "min-w-[253px]"} flex-col gap-3 rounded-[30px] ${
               i === 0
                 ? "bg-gradient-to-t from-secondary to-moduleDark via-moduleDark border-secondary"
                 : "bg-moduleDark border-highlightDark"

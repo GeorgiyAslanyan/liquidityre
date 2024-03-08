@@ -30,13 +30,13 @@ const cardArr = [
 
 const WhyUs = () => {
   return (
-    <div className="p-[60px] flex flex-col gap-[30px] items-center border border-secondary rounded-[30px]">
+    <div className="p-[30px] lg:p-[60px] flex flex-col gap-[30px] items-center border border-secondary rounded-[30px]">
       <h3 className="text-[46px]">Why Choose ØxLiquidity?</h3>
       <div className="grid grid-cols-3 gap-[30px]">
         {cardArr.map((el, index) => (
           <div
             key={el.title}
-            className={`border border-highlightDark bg-moduleDark rounded-2xl p-[30px] flex flex-col gap-[15px] ${index === 3 ? "col-span-3" : 'col-span-1'}`}
+            className={`border border-highlightDark bg-moduleDark rounded-2xl p-[30px] flex flex-col gap-[15px] ${index === 3 ? "col-span-3" : 'col-span-3 lg:col-span-1'}`}
           >
             <div className="flex gap-3 items-center">
               <Image src={el.icon} alt={el.title} width={30} height={30} />{" "}

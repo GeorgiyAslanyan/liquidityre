@@ -3,8 +3,8 @@ import React from "react";
 
 const Contacts = () => {
   return (
-    <div className="grid grid-cols-2 gap-[50px]">
-      <div className="rounded-[30px] text-center overflow-hidden bg-moduleDark px-[120px] py-[60px] relative border border-highlightDark">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px]">
+      <div className="rounded-[30px] text-center overflow-hidden bg-moduleDark px-10 2xl:px-[120px] py-[60px] relative border border-highlightDark">
         <Image
           src="/gradient.svg"
           alt="gradient"
@@ -31,7 +31,7 @@ const Contacts = () => {
           </p>
         </div>
       </div>
-      <div className="rounded-[30px] text-center overflow-hidden bg-moduleDark px-[120px] py-[60px] relative border border-highlightDark">
+      <div className="rounded-[30px] text-center overflow-hidden bg-moduleDark  px-10 2xl:px-[120px] py-[60px] relative border border-highlightDark">
         <Image
           src="/gradient.svg"
           alt="gradient"

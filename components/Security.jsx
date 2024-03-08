@@ -4,10 +4,10 @@ import React from "react";
 const Security = () => {
   return (
     <div className="border mb-[100px] border-secondary rounded-2xl flex gap-10 bg-gradient-to-r from-secondary via-backingDark to-backingDark">
-      <div className="p-[100px] flex items-center justify-center rounded-2xl border border-secondary bg-backingDark">
+      <div className="p-5 lg:p-[100px] flex items-center justify-center rounded-2xl border border-secondary bg-backingDark">
         <Image src="/security/security.svg" alt="security" width={500} height={500} />
       </div>
-      <div className="flex justify-center flex-col gap-5 pr-36">
+      <div className="flex justify-center flex-col gap-5 pr-5 lg:pr-36">
         <p className="text-primary w-fit bg-brandBacking rounded-xl px-2 py-1">
           Security
         </p>
