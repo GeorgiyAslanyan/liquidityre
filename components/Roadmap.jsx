@@ -57,7 +57,7 @@ const Roadmap = () => {
 
   return (
     <div className="flex flex-col gap-10 items-center">
-      <h2 className="text-5xl">Roadmap</h2>
+      <h2 className="text-[32px] sm:text-5xl">Roadmap</h2>
       <div className="flex gap-7 w-full justify-stretch overflow-y-auto">
         {cardArr.map((el, i) => (
           <div
@@ -80,7 +80,7 @@ const Roadmap = () => {
                 />
               </button>
             </div>
-            <div className="rounded-xl p-2 w-fit bg-brandBacking whitespace-nowrap text-primary">
+            <div className="rounded-xl p-2 w-fit monotext bg-brandBacking whitespace-nowrap text-primary">
               {el.description}
             </div>
             {(i === 2 || i === 3) && (
@@ -98,7 +98,7 @@ const Roadmap = () => {
                       height={22}
                       className=""
                     />{" "}
-                    <p className="text-landingSubtext">{el.name}</p>
+                    <p className="text-sm sm:text-base text-landingSubtext">{el.name}</p>
                   </div>
                 ))}{" "}
               </div>

@@ -10,15 +10,17 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex z-10 mx-[30px] lg:mx-12 mt-[105px] rounded-xl bg-gradient-to-b from-primary via-backingDark to-backingDark p-[1px]">
+    <main className="flex z-10 mx-4 sm:mx-[30px] lg:mx-12 mt-[105px] rounded-xl bg-gradient-to-b from-primary via-backingDark to-backingDark p-[1px]">
       <div className="bg-backingDark rounded-xl w-full">
       <Hero />
       <Advantages />
       <Divider gradient />
+      <div className="hidden sm:block">
       <div className="p-[60x] border border-secondary rounded-[30px]">
         <Image src="/ecosystem.svg" alt="ecosystem" width={1700} height={806} className="w-full"/>
       </div>
       <Divider />
+      </div>
       <WhyUs />
       <Divider />
       <Contacts />

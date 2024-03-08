@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'SF Mono';
+  src: url('./fonts/SF-Mono.dmg') format('dmg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,11 +24,14 @@
 }
 
 body {
-  
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.monotext {
+  font-family: 'SF Mono', monospace !important;
 }

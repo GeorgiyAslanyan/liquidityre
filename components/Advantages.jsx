@@ -8,10 +8,10 @@ const Advantages = () => {
         <div className="p-20 border w-[90%] min-h-20  border-highlightDark rounded-[30px] bg-backingDark"></div>
       </div>
       <div className="absolute z-[9] w-full -top-5 flex justify-center">
-      <div className="p-20 border w-[95%] min-h-20 border-highlightDark rounded-[30px] bg-backingDark"></div>
+      <div className="p-[15px] sm:p-20 border w-[95%] min-h-20 border-highlightDark rounded-[30px] bg-backingDark"></div>
       </div>
-      <div className="p-5 relative z-10 border gap-5 border-highlightDark rounded-[30px] bg-[#171717] grid grid-cols-1 lg:grid-cols-3">
-        <div className="relative overflow-hidden border border-secondary rounded-2xl p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
+      <div className="p-0 sm:p-5 relative z-10 border gap-5 border-highlightDark rounded-[30px] bg-[#171717] grid grid-cols-1 lg:grid-cols-3">
+        <div className="relative overflow-hidden border border-secondary rounded-2xl p-2 sm:p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
           <Image
             src="/gradient.svg"
             alt="gradient"
@@ -27,12 +27,12 @@ const Advantages = () => {
               height={40}
             />
           </div>
-          <p className="text-[32px] font-semibold">
+          <p className="text-2xl sm:text-[32px] font-semibold">
             Decentralized{" "}
             <span className="text-primary">Liquidity Listing</span> and{" "}
             <span className="text-primary">Auction Platform</span>
           </p>
-          <p className="text-landingSubtext">
+          <p className="text-sm sm:text-base text-landingSubtext">
             We aim to introduce a decentralized marketplace for{" "}
             <span className="text-primary">liquidity listing</span>, complete
             with an{" "}
@@ -45,7 +45,7 @@ const Advantages = () => {
             <span className="text-primary"> security</span>.
           </p>
         </div>
-        <div className="relative overflow-hidden border border-secondary rounded-2xl p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
+        <div className="relative overflow-hidden border border-secondary rounded-2xl p-2 sm:p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
           <Image
             src="/gradient.svg"
             alt="gradient"
@@ -61,12 +61,12 @@ const Advantages = () => {
               height={40}
             />
           </div>
-          <p className="text-[32px] font-semibold">
+          <p className="text-2xl sm:text-[32px] font-semibold">
             Decentralized{" "}
             <span className="text-primary">Venture Capital</span> for{" "}
             <span className="text-primary">Emerging Projects</span>
           </p>
-          <p className="text-landingSubtext">
+          <p className="text-sm sm:text-base text-landingSubtext">
             ØxLiquidity is poised to transform into a decentralized venture
             capital fund, providing crucial support to budding and active
             developers. By funding liquidity in startup projects, we will be
@@ -76,7 +76,7 @@ const Advantages = () => {
             DeFi ecosystem.
           </p>
         </div>
-        <div className="relative overflow-hidden border border-secondary rounded-2xl p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
+        <div className="relative overflow-hidden border border-secondary rounded-2xl p-2 sm:p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
           <Image
             src="/gradient.svg"
             alt="gradient"
@@ -92,11 +92,11 @@ const Advantages = () => {
               height={40}
             />
           </div>
-          <p className="text-[32px] font-semibold">
+          <p className="text-2xl sm:text-[32px] font-semibold">
             Advanced <span className="text-primary">Liquidity Locker</span>{" "}
             Solutions
           </p>
-          <p className="text-landingSubtext">
+          <p className="text-sm sm:text-base text-landingSubtext">
             We plan to integrate sophisticated liquidity locker services,
             offering <span className="text-primary">enhanced security</span> and{" "}
             <span className="text-primary">flexibility</span> for{" "}

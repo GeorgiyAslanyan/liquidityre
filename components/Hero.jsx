@@ -15,15 +15,22 @@ const Hero = () => {
         alt="grid"
         width={1920}
         height={1080}
-        className="z-0 bg-contain pointer-events-none bg-center absolute top-0 left-0 w-full"
+        className="z-0 bg-contain hidden lg:block pointer-events-none bg-center absolute top-0 left-0 w-full"
+      />
+      <Image
+        src="/gridSM.svg"
+        alt="grid"
+        width={1920}
+        height={1080}
+        className="z-0 bg-contain block lg:hidden pointer-events-none bg-center absolute top-0 left-0 w-full"
       />
       <div className="z-10 flex flex-col items-center justify-center">
         <div className="text-center items-center justify-center flex flex-col gap-5">
-          <h2 className="text-2xl">
+          <h2 className="text-lg sm:text-2xl">
             <span className="text-primary">Get your ETH</span> and fund your new
             ideas today!
           </h2>
-          <h1 className="text-5xl">Let your ETH work for you!</h1>
+          <h1 className="text-3xl sm:text-5xl">Let your ETH work for you!</h1>
           <button className="px-4 py-3 bg-primary gap-2 font-semibold text-backingDark rounded-2xl w-fit flex items-center justify-center">
           <p>Get Started</p>
             <Image
@@ -45,11 +52,11 @@ const Hero = () => {
           alt="clock"
           width={787}
           height={35}
-          className="sm:px-[100px] lg:px-0"/>
-          <div className='grid grid-cols-1 md:grid-cols-3 px-5 gap-20 mt-7 w-full'>
+          className="px-5 sm:px-[100px] lg:px-0"/>
+          <div className='grid grid-cols-1 md:grid-cols-3 px-5 gap-5 md:gap-20 mt-7 w-full'>
                 {cardArr.map(el => <div key={el.title} className="py-6 w-full px-5 lg:px-20 rounded-[20px] border border-secondary bg-backingDark flex flex-col gap-2 items-center justify-center">
-                    <p className='text-lg font-semibold'>{el.title}</p>
-                    <p className='text-[32px] text-primary'>{el.description}</p>
+                    <p className='text-sm sm:text-lg font-semibold'>{el.title}</p>
+                    <p className='text-2xl sm:text-[32px] text-primary monotext'>{el.description}</p>
                 </div>)}
           </div>
       </div>
