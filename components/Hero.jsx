@@ -57,7 +57,7 @@ const Hero = () => {
         <video
           width="100%"
           height="100%"
-          className="-mt-10 -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
+          className="-mt-10 z-[3] -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
           title="Video tooltip on hover."
           poster="/pre.png"
           muted
@@ -65,7 +65,7 @@ const Hero = () => {
           loop
           autoPlay>
           <source src="/clock_alpha.webm" type="video/webm" />
-          <source src="/clock_alpha.mp4" type="video/mp4" />
+          {/* <source src="/clock_alpha.mp4" type="video/mp4" /> */}
         </video>
         {/* <Image
           width={700}
