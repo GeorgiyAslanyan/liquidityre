@@ -12,13 +12,13 @@ const cardArr = [
     title: "Security and Trust Assurance",
     icon: "/whyus/immediate.svg",
     description:
-      "Our platform offers a unique solution that allows project creators to access their locked ETH without waiting for lengthy lock-in periods to expire. This ensures that innovation never has to take a back seat due to locked funds.",
+      "To build a foundation of trust and security with investors, we utilized an audit service and went through a KYC process with Cyberscope, a leading company in this field.",
   },
   {
-    title: "Global Operation, Personalized Experience",
+    title: "Сonfidential Experience",
     icon: "/whyus/global.svg",
     description:
-      "Our platform is designed for global accessibility, ensuring that no matter where you are, you can unlock your liquidity. Plus, we ensure a personalized and confidential experience, understanding the unique needs and privacy concerns of each client.",
+      "We ensure a personalized and confidential experience, understanding the unique needs and privacy concerns of each client.",
   },
 ];
 
