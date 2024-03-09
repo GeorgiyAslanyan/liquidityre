@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html className="scroll-smooth" lang="en">
       <body
-        className={inter.className + " " + "bg-backingDark text-maintextDark"}
+        className={"bg-backingDark text-maintextDark"}
         suppressHydrationWarning={true}
       >
         <Navbar />

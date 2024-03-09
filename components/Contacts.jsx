@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 
@@ -50,21 +51,27 @@ const Contacts = () => {
           <div className="flex justify-between text-[18px] font-semibold items-center w-full p-5 rounded-[20px] border border-secondary">
             <p className="text-sm sm:text-base text-landingSubtext">
               <span className="hidden sm:inline">https://</span>
-              <span className="hidden sm:inline">
-                ref.0xLiquidityswap.io/
-              </span>
+              <span className="hidden sm:inline">ref.0xLiquidityswap.io/</span>
               <span className="inline sm:hidden">ref.0x....io/</span>
               <span className="text-primary">235634</span>
             </p>
-            <button className="text-sm sm:text-base bg-primary text-backingDark px-[10px] py-[6px] rounded-[10px]">
+            <button
+              onClick={() => {
+                navigator.clipboard.writeText(
+                  "https://ref.0xLiquidityswap.io/235634"
+                );
+              }}
+              className="text-sm sm:text-base hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark px-[10px] py-[6px] rounded-[10px]"
+            >
               Copy
             </button>
           </div>
           <hr className="bg-highlightDark border-none h-[1px] w-full my-[30px]" />
           <div className="flex gap-10">
             <a
-              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] bg-brandBacking rounded-[20px] flex items-center justify-center"
-              href="http://"
+            target="_blank" rel="noopener noreferrer"
+              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-[20px] flex items-center justify-center"
+              href="https://t.me/ZeroXLiquidity"
             >
               <Image
                 src="/contacts/telegram.svg"
@@ -74,9 +81,9 @@ const Contacts = () => {
                 className=""
               />
             </a>
-            <a
-              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] bg-brandBacking rounded-[20px] flex items-center justify-center"
-              href="http://"
+            <a target="_blank" rel="noopener noreferrer"
+              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-[20px] flex items-center justify-center"
+              href="mailto:contact@0xLiquidityswap.co"
             >
               <Image
                 src="/contacts/mail.svg"
@@ -86,9 +93,9 @@ const Contacts = () => {
                 className=""
               />
             </a>
-            <a
-              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] bg-brandBacking rounded-[20px] flex items-center justify-center"
-              href="http://"
+            <a target="_blank" rel="noopener noreferrer"
+              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-[20px] flex items-center justify-center"
+              href="https://twitter.com/0xLiquiditySwap"
             >
               <Image
                 src="/contacts/x.svg"

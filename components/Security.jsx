@@ -22,7 +22,7 @@ const Security = () => {
           href="http://"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary w-fit bg-brandBacking rounded-xl px-2 py-1 flex gap-3 items-center"
+          className="text-primary w-fit hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-2 py-1 flex gap-3 items-center"
         >Learn more <Image src="/security/arrowupright.svg" alt="arrow" width={22} height={22} /></a>
       </div>
     </div>

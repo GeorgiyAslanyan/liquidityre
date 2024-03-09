@@ -55,6 +55,7 @@ const Roadmap = () => {
   const [is3Open, setIs3Open] = React.useState(true);
   const [is4Open, setIs4Open] = React.useState(true);
 
+  const calculateWidth = () => {};
   return (
     <div className="flex flex-col gap-10 items-center">
       <h2 className="text-[32px] sm:text-5xl">Roadmap</h2>
@@ -62,7 +63,16 @@ const Roadmap = () => {
         {cardArr.map((el, i) => (
           <div
             key={el.title}
-            className={`border p-7 flex ${(i === 2 || i === 3) ? "min-w-[253px] w-[160%]" : "min-w-[253px]"} flex-col gap-3 rounded-[30px] ${
+            className={`h-[340px] border p-7 flex ${
+              !is1Open && !is2Open && !is3Open && !is4Open
+                ? "w-1/4"
+                : (i === 0 && is1Open) ||
+                  (i === 1 && is2Open) ||
+                  (i === 2 && is3Open) ||
+                  (i === 3 && is4Open)
+                ? "min-w-[253px] w-[100%]"
+                : "min-w-[253px]"
+            } flex-col gap-3 rounded-[30px] ${
               i === 0
                 ? "bg-gradient-to-t from-secondary to-moduleDark via-moduleDark border-secondary"
                 : "bg-moduleDark border-highlightDark"
@@ -70,9 +80,27 @@ const Roadmap = () => {
           >
             <div className="flex justify-between gap-3 items-center">
               <h3 className="text-2xl">{el.title}</h3>
-              <button className="rounded-xl p-2 w-10 h-10 bg-highlightDark flex items-center justify-center">
+              <button
+                onClick={() =>
+                  i === 0
+                    ? setIs1Open(!is1Open)
+                    : i === 1
+                    ? setIs2Open(!is2Open)
+                    : i === 2
+                    ? setIs3Open(!is3Open)
+                    : setIs4Open(!is4Open)
+                }
+                className="rounded-xl p-2 w-10 h-10 hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-highlightDark flex items-center justify-center"
+              >
                 <Image
-                  src={(i === 2 || i === 3) ? "/roadmap/open.svg" : "/roadmap/close.svg"}
+                  src={
+                    (i === 0 && is1Open) ||
+                    (i === 1 && is2Open) ||
+                    (i === 2 && is3Open) ||
+                    (i === 3 && is4Open)
+                      ? "/roadmap/open.svg"
+                      : "/roadmap/close.svg"
+                  }
                   alt="close"
                   width={22}
                   height={22}
@@ -83,7 +111,10 @@ const Roadmap = () => {
             <div className="rounded-xl p-2 w-fit monotext bg-brandBacking whitespace-nowrap text-primary">
               {el.description}
             </div>
-            {(i === 2 || i === 3) && (
+            {((i === 0 && is1Open) ||
+              (i === 1 && is2Open) ||
+              (i === 2 && is3Open) ||
+              (i === 3 && is4Open)) && (
               <div className="flex flex-col gap-3 ">
                 {el.data.map((el) => (
                   <div key={el.id} className="flex gap-3 items-center">
@@ -98,7 +129,9 @@ const Roadmap = () => {
                       height={22}
                       className=""
                     />{" "}
-                    <p className="text-sm sm:text-base text-landingSubtext">{el.name}</p>
+                    <p className="text-sm sm:text-base text-landingSubtext">
+                      {el.name}
+                    </p>
                   </div>
                 ))}{" "}
               </div>
