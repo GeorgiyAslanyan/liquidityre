@@ -3,7 +3,7 @@ import React from "react";
 
 const Security = () => {
   return (
-    <div className="border mb-[60px] sm:mb-[100px] border-secondary rounded-2xl flex flex-col sm:flex-row gap-[30px] sm:gap-10 bg-gradient-to-b sm:bg-gradient-to-r  from-secondary via-backingDark to-backingDark">
+    <div className="border border-secondary rounded-2xl flex flex-col sm:flex-row gap-[30px] sm:gap-10 bg-gradient-to-b sm:bg-gradient-to-r  from-secondary via-backingDark to-backingDark">
       <div className="p-5 lg:p-[100px] flex items-center justify-center rounded-2xl border border-secondary bg-backingDark">
         <Image src="/security/security.svg" alt="security" className="min-w-[300px]" width={500} height={500} />
       </div>

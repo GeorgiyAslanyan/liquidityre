@@ -16,7 +16,7 @@ export default function Home() {
       <Advantages />
       <Divider gradient />
       <div className="hidden sm:block">
-      <div className="p-[60x] border border-secondary rounded-[30px]">
+      <div className="p-[60x] border border-secondary rounded-[30px] overflow-hidden">
         <Image src="/ecosystem.svg" alt="ecosystem" width={1700} height={806} className="w-full"/>
       </div>
       <Divider />
@@ -26,8 +26,8 @@ export default function Home() {
       <Contacts />
       <Divider />
       <Roadmap />
-      <Divider />
-      <Security />
+      {/* <Divider />
+      <Security /> */}
       <Footer />
       </div>
     </main>

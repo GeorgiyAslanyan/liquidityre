@@ -3,22 +3,16 @@ import React from "react";
 
 const cardArr = [
   {
-    title: "Immediate Access",
-    icon: "/whyus/immediate.svg",
-    description:
-      "Our platform offers a unique solution that allows project creators to access their locked ETH without waiting for lengthy lock-in periods to expire. This ensures that innovation never has to take a back seat due to locked funds.",
-  },
-  {
     title: "Safety First",
     icon: "/whyus/safety.svg",
     description:
       "In collaboration with Kleros, we guarantee the utmost security for every transaction. Kleros a renowned decentralized arbitration service, ensures that every swap is executed with precision and security in mind.",
   },
   {
-    title: "Maximize Your Potential",
-    icon: "/whyus/maximize.svg",
+    title: "Security and Trust Assurance",
+    icon: "/whyus/immediate.svg",
     description:
-      "With our platform, your Ethereum isn't just sitting idle. It's an active asset, primed to fund your next venture or idea.",
+      "Our platform offers a unique solution that allows project creators to access their locked ETH without waiting for lengthy lock-in periods to expire. This ensures that innovation never has to take a back seat due to locked funds.",
   },
   {
     title: "Global Operation, Personalized Experience",

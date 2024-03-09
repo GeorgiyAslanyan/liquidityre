@@ -57,7 +57,7 @@ const Hero = () => {
         <video
           width="100%"
           height="100%"
-          className="-mt-10 z-[3] -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
+          className="-mt-10 z-[-1] -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
           title="Video tooltip on hover."
           poster="/pre.png"
           muted

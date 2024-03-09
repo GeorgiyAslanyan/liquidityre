@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="relative mb-4 sm:mb-10 p-7 overflow-hidden rounded-[30px] border border-secondary bg-moduleDark flex justify-between gap-32 flex-col">
+    <div className="relative mt-[60px] sm:mt-[100px] mb-4 sm:mb-10 p-7 overflow-hidden rounded-[30px] border border-secondary bg-moduleDark flex justify-between gap-32 flex-col">
       <Image
         src="/gradient.svg"
         alt="footer"

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import React from "react";
 
@@ -25,14 +25,14 @@ const Contacts = () => {
             className=""
           />
           <p className="text-sm sm:text-base text-landingSubtext">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+            This principle emphasizes the strength of decentralized
+            decision-making and leverages the collective intelligence and
+            expertise of a diverse group of participants to drive innovation,
+            sustainability, and success in a project.
           </p>
         </div>
       </div>
-      <div className="rounded-[30px] text-center overflow-hidden bg-moduleDark  px-4 sm:px-10 2xl:px-[120px] py-7 sm:py-[60px] relative border border-highlightDark">
+      <div className="flex items-center flex-col justify-center rounded-[30px] text-center overflow-hidden bg-moduleDark  px-4 sm:px-10 2xl:px-[120px] py-7 sm:py-[60px] relative border border-highlightDark">
         <Image
           src="/gradient.svg"
           alt="gradient"
@@ -42,70 +42,18 @@ const Contacts = () => {
         />
         <div className="flex flex-col items-center justify-center gap-5 ">
           <h3 className="font-semibold text-2xl sm:text-[32px]">
-            Referral Program
+            LP Bounty Hunter Program
           </h3>
           <h3 className="font-semibold text-[32px] sm:text-[46px]">
-            <span className="text-primary">Refer</span> a friend and{" "}
-            <span className="text-primary">Earn 10$</span>
+            <span className="text-primary">Refer</span> new client{" "}
+            <span className="text-primary">Earn $100</span>
           </h3>
-          <div className="flex justify-between text-[18px] font-semibold items-center w-full p-5 rounded-[20px] border border-secondary">
-            <p className="text-sm sm:text-base text-landingSubtext">
-              <span className="hidden sm:inline">https://</span>
-              <span className="hidden sm:inline">ref.0xLiquidityswap.io/</span>
-              <span className="inline sm:hidden">ref.0x....io/</span>
-              <span className="text-primary">235634</span>
-            </p>
-            <button
-              onClick={() => {
-                navigator.clipboard.writeText(
-                  "https://ref.0xLiquidityswap.io/235634"
-                );
-              }}
-              className="text-sm sm:text-base hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark px-[10px] py-[6px] rounded-[10px]"
-            >
-              Copy
-            </button>
-          </div>
-          <hr className="bg-highlightDark border-none h-[1px] w-full my-[30px]" />
-          <div className="flex gap-10">
-            <a
-            target="_blank" rel="noopener noreferrer"
-              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-[20px] flex items-center justify-center"
-              href="https://t.me/ZeroXLiquidity"
-            >
-              <Image
-                src="/contacts/telegram.svg"
-                alt="telegram"
-                width={40}
-                height={33}
-                className=""
-              />
-            </a>
-            <a target="_blank" rel="noopener noreferrer"
-              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-[20px] flex items-center justify-center"
-              href="mailto:contact@0xLiquidityswap.co"
-            >
-              <Image
-                src="/contacts/mail.svg"
-                alt="mail"
-                width={36}
-                height={29}
-                className=""
-              />
-            </a>
-            <a target="_blank" rel="noopener noreferrer"
-              className="h-[60px] sm:h-[70px] w-[60px] sm:w-[70px] hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-[20px] flex items-center justify-center"
-              href="https://twitter.com/0xLiquiditySwap"
-            >
-              <Image
-                src="/contacts/x.svg"
-                alt="x"
-                width={34}
-                height={30}
-                className=""
-              />
-            </a>
-          </div>
+          <a
+          href="http://"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary w-fit hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
+        >Learn more <Image src="/security/arrowupright.svg" alt="arrow" width={22} height={22} /></a>
         </div>
       </div>
     </div>

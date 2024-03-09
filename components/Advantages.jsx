@@ -10,7 +10,7 @@ const Advantages = () => {
       <div className="absolute z-[9] w-full -top-5 flex justify-center">
       <div className="p-[15px] sm:p-20 border w-[95%] min-h-20 border-highlightDark rounded-[30px] bg-backingDark"></div>
       </div>
-      <div className="p-0 sm:p-5 relative z-10 border gap-5 border-highlightDark rounded-[30px] bg-[#171717] grid grid-cols-1 lg:grid-cols-3">
+      <div className="p-0 sm:p-5 relative z-10 border gap-5 border-highlightDark rounded-2xl sm:rounded-[30px] bg-[#171717] grid grid-cols-1 lg:grid-cols-3">
         <div className="relative overflow-hidden border border-secondary rounded-2xl p-2 sm:p-[30px] flex flex-col gap-[30px] items-center justify-center text-center">
           <Image
             src="/gradient.svg"
