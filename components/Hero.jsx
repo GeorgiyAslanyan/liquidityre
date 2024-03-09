@@ -10,7 +10,6 @@ const Hero = () => {
     const fetchData = () => {
       axios.get('https://api.coingecko.com/api/v3/simple/price?ids=0xliquidity&vs_currencies=usd')
         .then(response => {
-          console.log(response.data);
           setPrice(response.data['0xliquidity']['usd']);
         })
         .catch(error => {
@@ -55,13 +54,26 @@ const Hero = () => {
             />
           </button>
         </div>
-        <Image
-          className="-mt-10 -mb-10  pointer-events-none"
-          src="/hero/clock.svg"
-          alt="clock"
+        <video
+          width="100%"
+          height="100%"
+          className="-mt-10 -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
+          title="Video tooltip on hover."
+          poster="/pre.png"
+          muted
+          playsInline
+          loop
+          autoPlay>
+          <source src="/clock_alpha.webm" type="video/webm" />
+          <source src="/clock_alpha.mp4" type="video/mp4" />
+        </video>
+        {/* <Image
           width={700}
           height={686}
-        />
+          src="/hero/clock.svg"
+          alt="clock"
+          
+        /> */}
         <Image
           src="/hero/linetree.svg"
           alt="clock"
