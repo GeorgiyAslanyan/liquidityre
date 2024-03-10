@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 const Hero = () => {
   const [price, setPrice] = React.useState(0);
   const [marketCap, setMarketCap] = React.useState(0);
-  const [holders, setHolders] = React.useState(750);
+  const [holders, setHolders] = React.useState(0);
 
   useEffect(() => {
     const fetchData = () => {
@@ -15,6 +15,29 @@ const Hero = () => {
         .then(response => {
           setMarketCap(response.data['market_data']['fully_diluted_valuation']["usd"]);
           setPrice(response.data['market_data']['current_price']["usd"]);
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    };
+  
+    fetchData();
+    const intervalId = setInterval(fetchData, 60000);
+    return () => clearInterval(intervalId);
+  }, []);
+
+  useEffect(() => {
+    const fetchData = () => {
+     
+      axios.get('https://api.chainbase.online/v1/token/holders?chain_id=1&contract_address=0xd377F28245BC505190c8f34D2bFE5f215754f634', {
+        headers: {
+          accept: 'application/json',
+          'X-API-Key': '2dUb3e0Yj6g5LmZVOttHnhlDSbq',
+        }
+      })
+        .then(response => {
+          console.log(response.data);
+          setHolders(response.data.count);
         })
         .catch(error => {
           console.error('Error:', error);
