@@ -36,7 +36,6 @@ const Hero = () => {
         }
       })
         .then(response => {
-          console.log(response.data);
           setHolders(response.data.count);
         })
         .catch(error => {
