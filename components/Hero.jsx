@@ -6,11 +6,15 @@ import React, { useEffect } from "react";
 
 const Hero = () => {
   const [price, setPrice] = React.useState(0);
+  const [marketCap, setMarketCap] = React.useState(0);
+  const [holders, setHolders] = React.useState(750);
+
   useEffect(() => {
     const fetchData = () => {
-      axios.get('https://api.coingecko.com/api/v3/simple/price?ids=0xliquidity&vs_currencies=usd')
+      axios.get('https://api.coingecko.com/api/v3/coins/0xliquidity?tickers=false&community_data=false&developer_data=false&sparkline=false')
         .then(response => {
-          setPrice(response.data['0xliquidity']['usd']);
+          setMarketCap(response.data['market_data']['fully_diluted_valuation']["usd"]);
+          setPrice(response.data['market_data']['current_price']["usd"]);
         })
         .catch(error => {
           console.error('Error:', error);
@@ -21,6 +25,8 @@ const Hero = () => {
     const intervalId = setInterval(fetchData, 60000);
     return () => clearInterval(intervalId);
   }, []);
+
+  
   return (
     <div className="min-h-screen w-full flex justify-center items-center relative pt-[110px] pb-[150px]">
       <Image
@@ -82,9 +88,9 @@ const Hero = () => {
           className="px-5 sm:px-[100px] lg:px-0"
         />
         <div className="grid grid-cols-1 md:grid-cols-3 px-5 gap-5 md:gap-20 mt-7 w-full">
-          {[{ title: "Market Cap", value: "151.23B+" },
+          {[{ title: "Market Cap", value: `$${marketCap}` },
   { title: "Token Price", value: `$${price}` },
-  { title: "Holders", value: "10.23k" }].map((el) => (
+  { title: "Holders", value: `${holders}` }].map((el) => (
             <div
               key={el.title}
               className="py-6 w-full px-5 lg:px-20 rounded-[20px] border border-secondary bg-backingDark flex flex-col gap-2 items-center justify-center"

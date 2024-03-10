@@ -1,6 +1,6 @@
 <!-- Animated using SVGANIMA - https://svganima.com -->
 <svg width="1820" height="926" viewBox="0 0 1820 926" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg7585" preserveAspectRatio="xMidYMid">
-<!-- <rect width="1820" height="926" fill="#111111" id="rect4491"></rect> -->
+<rect width="1820" height="926" fill="#111111" id="rect4491"></rect>
 <path d=" M 1299 184.226 L 1293.23 190 L 1299 195.774 L 1304.77 190 L 1299 184.226 Z M 903.5 184.226 L 897.726 190 L 903.5 195.774 L 909.274 190 L 903.5 184.226 Z M 195 191 H 1638.5 V 189 H 195 V 191 Z M 1652.5 205 V 230 H 1654.5 V 205 H 1652.5 Z M 179 205 V 230 H 181 V 205 H 179 Z M 1638.5 191 C 1646.23 191 1652.5 197.268 1652.5 205 H 1654.5 C 1654.5 196.163 1647.34 189 1638.5 189 V 191 Z M 195 189 C 186.163 189 179 196.163 179 205 H 181 C 181 197.268 187.268 191 195 191 V 189 Z M 1300 420.5 V 190 H 1298 V 420.5 H 1300 Z M 904.5 230 V 190 H 902.5 V 230 H 904.5 Z M 300 822 H 960 V 820 H 300 V 822 Z M 1129 638 V 776 H 1131 V 638 H 1129 Z " fill="url(#paint0_linear_138_199)" id="path86"></path>
 <path d=" M 670 460.5 V 435.5 C 670 427.215 676.716 420.5 685 420.5 H 1575 C 1583.28 420.5 1590 427.215 1590 435.5 V 460 M 1590 638 V 663 C 1590 671.284 1583.28 678 1575 678 L 685 678 C 676.715 678 670 671.284 670 663 V 638.5 M 180 320 V 776" stroke="#272727" stroke-width="2" id="path941"></path>
 <path d=" M 960 549 H 840" stroke="#272727" stroke-width="2" id="path6812"></path>
@@ -8,42 +8,54 @@
 <path d=" M 960 549 H 840" stroke="#272727" stroke-width="2" id="path8577"></path>
 <path d=" M 960 549 H 840" stroke="#272727" stroke-width="2" id="path7285"></path>
 <path d=" M 900 554.774 L 905.774 549 L 900 543.226 L 894.226 549 L 900 554.774 Z M 901 549 V 320 H 899 V 549 H 901 Z " fill="url(#paint1_linear_138_199)" id="path8646"></path>
-<g filter="url(#filter0_d_138_199)" id="g6054" transform="matrix(1 0 0 1 2.75 23.25)">
-<circle cx="176.5" cy="217.5" r="3.5" fill="white" id="circle3798"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;0.82 -41.22;16.02 -51.83;1458.71 -51.14;1474.71 -37.64;1474.7 0.12" calcMode="spline" keyTimes="0;0.02;0.04;0.96;0.9800000000000001;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform3153"></animateTransform></g>
-<g filter="url(#filter1_d_138_199)" id="g4815" transform="matrix(1 0 0 1 2.4748737812042236 4.596193981125481)">
-<circle cx="900.5" cy="185.5" r="3.5" fill="white" id="circle9080"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;0 0;-2.62 359.6" calcMode="spline" keyTimes="0;0.48;1" keySplines="0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform736"></animateTransform><animate attributeType="auto" attributeName="opacity" values="0;0;1;1" calcMode="spline" keyTimes="0;0.48;0.5;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate3438"></animate></g>
-<g filter="url(#filter2_d_138_199)" id="g1443" transform="matrix(1 0 0 1 -26.870057678312946 114.19775390625)">
-<circle cx="930.5" cy="434.5" r="3.5" fill="white" id="circle6286"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;307.43 -0.05" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform7410"></animateTransform></g>
-<g filter="url(#filter3_d_138_199)" id="g367" transform="matrix(1 0 0 1 34.648231506347656 3.1819808960412956)">
-<circle cx="944.5" cy="817.5" r="3.5" fill="white" id="circle158"></circle>
+<g filter="" id="g6054" transform="matrix(1 0 0 1 2.75 23.25)">
+<!-- <circle cx="176.5" cy="217.5" r="3.5" fill="white" id="circle3798"></circle> -->
+<rect x="176.5" y="219" width="7" height="7" transform="rotate(-45 176.5 219)" fill="#DCB976" id="circle3798"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-4.04 -1.04;-3.79 -41.54;16.02 -51.83;1458.71 -51.14;1469.53 -37.55;1469.53 -1.3" calcMode="spline" keyTimes="0;0.02;0.04;0.96;0.9800000000000001;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform3153"></animateTransform></g>
+<g filter="" id="g4815" transform="matrix(1 0 0 1 2.4748737812042236 4.596193981125481)">
+<!-- <circle cx="900.5" cy="185.5" r="3.5" fill="white" id="circle9080"></circle> -->
+<rect x="893.5" y="185.5" width="7" height="7" transform="rotate(-45 893.5 185.5)" fill="#DCB976" id="circle9080"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="2.39 -0.22;2.39 -0.22;-2.62 359.6" calcMode="spline" keyTimes="0;0.48;1" keySplines="0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform736"></animateTransform><animate attributeType="auto" attributeName="opacity" values="0;0;1;1" calcMode="spline" keyTimes="0;0.48;0.5;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate3438"></animate></g>
+<g filter="" id="g1443" transform="matrix(1 0 0 1 -26.870057678312946 114.19775390625)">
+<!-- <circle cx="930.5" cy="434.5" r="3.5" fill="white" id="circle6286"></circle> -->
+<rect x="930.5" y="434.5" width="7" height="7" transform="rotate(-45 930.5 434.5)" fill="#DCB976" id="circle6286"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-8.69 0.23;307.43 -0.05" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform7410"></animateTransform></g>
+<g filter="" id="g367" transform="matrix(1 0 0 1 34.648231506347656 3.1819808960412956)">
+<!-- <circle cx="944.5" cy="817.5" r="3.5" fill="white" id="circle158"></circle> -->
+<rect x="944.5" y="817.5" width="7" height="7" transform="rotate(-45 944.5 817.5)" fill="#DCB976" id="circle158"></rect>
 <animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;-701.63 0.29" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform6121"></animateTransform></g>
-<g filter="url(#filter4_d_138_199)" id="g5582" transform="matrix(1 0 0 1 5.25 -13.75)">
-<circle cx="665.5" cy="641.5" r="3.5" fill="white" id="circle3578"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;-1.01 37.22;11.74 50.22;459.43 50.74;459.43 50.74" calcMode="spline" keyTimes="0;0.02;0.04;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform4370"></animateTransform><animate attributeType="auto" attributeName="opacity" values="1;1;0;0" calcMode="spline" keyTimes="0;0.26;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate3720"></animate></g>
-<g filter="url(#filter5_d_138_199)" id="g8872" transform="matrix(1 0 0 1 3.181980609893799 -20.152540588288502)">
-<circle cx="1586.5" cy="648.5" r="3.5" fill="white" id="circle6606"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;0.48 38.31;-11.52 50.31;-459.52 49.81;-459.77 49.81" calcMode="spline" keyTimes="0;0.02;0.04;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform6106"></animateTransform><animate attributeType="auto" attributeName="opacity" values="1;1;0;0" calcMode="spline" keyTimes="0;0.26;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate4578"></animate><animate attributeType="auto" attributeName="opacity" values="1;1;0;0" calcMode="spline" keyTimes="0;0.26;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate9553"></animate></g>
-<g filter="url(#filter6_d_138_199)" id="g3423" transform="matrix(1 0 0 1 3 -13.25)">
-<circle cx="1126.5" cy="641.5" r="3.5" fill="white" id="circle1402"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;0.48 175.01" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform5429"></animateTransform></g>
-<g filter="url(#filter7_d_138_199)" id="g4618" transform="matrix(1 0 0 1 3.358757257461548 23.15775280003288)">
-<circle cx="176.5" cy="763.5" r="3.5" fill="white" id="circle4831"></circle>
+<g filter="" id="g5582" transform="matrix(1 0 0 1 5.25 -13.75)">
+<!-- <circle cx="665.5" cy="641.5" r="3.5" fill="white" id="circle3578"></circle> -->
+<rect x="665.5" y="641.5" width="7" height="7" transform="rotate(-45 665.5 641.5)" fill="#DCB976" id="circle3578"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-5.61 0.03;-5.61 38.28;11.74 50.22;459.43 50.74;459.43 50.74" calcMode="spline" keyTimes="0;0.02;0.04;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform4370"></animateTransform><animate attributeType="auto" attributeName="opacity" values="1;1;0;0" calcMode="spline" keyTimes="0;0.26;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate3720"></animate></g>
+<g filter="" id="g8872" transform="matrix(1 0 0 1 3.181980609893799 -20.152540588288502)">
+<!-- <circle cx="1586.5" cy="648.5" r="3.5" fill="white" id="circle6606"></circle> -->
+<rect x="1586.5" y="648.5" width="7" height="7" transform="rotate(-45 1586.5 648.5)" fill="#DCB976" id="circle6606"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-4.88 -0.43;-4.88 37.7;-11.52 50.31;-459.52 49.81;-459.77 49.81" calcMode="spline" keyTimes="0;0.02;0.04;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform6106"></animateTransform><animate attributeType="auto" attributeName="opacity" values="1;1;0;0" calcMode="spline" keyTimes="0;0.26;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate4578"></animate><animate attributeType="auto" attributeName="opacity" values="1;1;0;0" calcMode="spline" keyTimes="0;0.26;0.27999999999999997;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate9553"></animate></g>
+<g filter="" id="g3423" transform="matrix(1 0 0 1 3 -13.25)">
+<!-- <circle cx="1126.5" cy="641.5" r="3.5" fill="white" id="circle1402"></circle> -->
+<rect x="1122.5" y="641.5" width="7" height="7" transform="rotate(-45 1122.5 641.5)" fill="#DCB976" id="circle1402"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;-0.71 174.74" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform5429"></animateTransform></g>
+<g filter="" id="g4618" transform="matrix(1 0 0 1 3.358757257461548 23.15775280003288)">
+<!-- <circle cx="176.5" cy="763.5" r="3.5" fill="white" id="circle4831"></circle> -->
+<rect x="171.5" y="763.5" width="7" height="7" transform="rotate(-45 171.5 763.5)" fill="#DCB976" id="circle4831"></rect>
 <animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;-0.15 -500.8" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform5425"></animateTransform></g>
-<g filter="url(#filter8_d_138_199)" id="g6481" transform="matrix(1 0 0 1 12.3125 111.0625)">
-<circle cx="884.5" cy="437.5" r="3.5" fill="white" id="circle4355"></circle>
+<g filter="" id="g6481" transform="matrix(1 0 0 1 12.3125 111.0625)">
+<!-- <circle cx="884.5" cy="437.5" r="3.5" fill="white" id="circle4355"></circle> -->
+<rect x="884.5" y="437.5" width="7" height="7" transform="rotate(-45 884.5 437.5)" fill="#DCB976" id="circle4355"></rect>
 <animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;-314.96 -0.35" calcMode="spline" keyTimes="0;1" keySplines="0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform8217"></animateTransform></g>
-<g filter="url(#filter9_d_138_199)" id="g765" transform="matrix(1 0 0 1 0.35355344414711 -3.0052034377600023)">
-<circle cx="1298.5" cy="193.5" r="3.5" fill="white" id="circle5930"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;0 0;0.31 229.58" calcMode="spline" keyTimes="0;0.74;1" keySplines="0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform3694"></animateTransform><animate attributeType="auto" attributeName="opacity" values="0;0;1;1" calcMode="spline" keyTimes="0;0.74;0.76;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate696"></animate></g>
-<g filter="url(#filter10_d_138_199)" id="g4908" transform="matrix(1 0 0 1 -20.77386474609375 -1.1315847814330482e-7)">
-<circle cx="1322.5" cy="419.5" r="3.5" fill="white" id="circle5174"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;277.75 0.27;288.89 14.95;289.14 46.96" calcMode="spline" keyTimes="0;0.8800000000000001;0.92;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform4536"></animateTransform></g>
-<g filter="url(#filter11_d_138_199)" id="g2561" transform="matrix(1 0 0 1 13 0)">
-<circle cx="1283.5" cy="419.5" r="3.5" fill="white" id="circle2640"></circle>
-<animateTransform attributeName="transform" attributeType="auto" type="translate" values="0 0;-610.2 0.94;-626.82 11.37;-627.02 50.19" calcMode="spline" keyTimes="0;0.8800000000000001;0.92;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform6063"></animateTransform></g>
+<g filter="" id="g765" transform="matrix(1 0 0 1 0.35355344414711 -3.0052034377600023)">
+<!-- <circle cx="1298.5" cy="193.5" r="3.5" fill="white" id="circle5930"></circle> -->
+<rect x="1295.5" y="193.5" width="7" height="7" transform="rotate(-45 1295.5 193.5)" fill="#DCB976" id="circle5930"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-1.75 -0.32;-1.75 -0.32;-1.71 230.39" calcMode="spline" keyTimes="0;0.74;1" keySplines="0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform3694"></animateTransform><animate attributeType="auto" attributeName="opacity" values="0;0;1;1" calcMode="spline" keyTimes="0;0.74;0.76;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="replace" accumulate="none" fill="freeze" id="animate696"></animate></g>
+<g filter="" id="g4908" transform="matrix(1 0 0 1 -20.77386474609375 -1.1315847814330482e-7)">
+<!-- <circle cx="1322.5" cy="419.5" r="3.5" fill="white" id="circle5174"></circle> -->
+<rect x="1319.5" y="421.5" width="7" height="7" transform="rotate(-45 1319.5 421.5)" fill="#DCB976" id="circle5174"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-4.31 -1.31;276.19 -1.31;286.69 15.69;286.44 47.19" calcMode="spline" keyTimes="0;0.8800000000000001;0.92;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform4536"></animateTransform></g>
+<g filter="" id="g2561" transform="matrix(1 0 0 1 13 0)">
+<!-- <circle cx="1283.5" cy="419.5" r="3.5" fill="white" id="circle2640"></circle> -->
+<rect x="1283.5" y="419.5" width="7" height="7" transform="rotate(-45 1283.5 419.5)" fill="#DCB976" id="circle2640"></rect>
+<animateTransform attributeName="transform" attributeType="auto" type="translate" values="-2.08 0.67;-610.2 0.94;-631.11 11.04;-631.64 49.98" calcMode="spline" keyTimes="0;0.8800000000000001;0.92;1" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" dur="5s" begin="0s" repeatCount="indefinite" additive="sum" accumulate="none" fill="freeze" id="animateTransform6063"></animateTransform></g>
 <g filter="url(#filter12_b_138_199)" id="g8127">
 <rect x="60" y="230" width="240" height="90" rx="15" fill="#171717" id="rect4018"></rect>
 <rect x="60.5" y="230.5" width="239" height="89" rx="14.5" stroke="#272727" id="rect9225"></rect>

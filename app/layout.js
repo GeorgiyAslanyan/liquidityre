@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
