@@ -88,7 +88,7 @@ const Footer = () => {
               <p className="text-primary font-semibold">About</p>
               <a href="http://docs.0xliquidityswap.io" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Documentation</a>
               <p className="text-subtextDark hover:text-maintextDark ">CoinMarketCap</p>
-              <p className="text-subtextDark hover:text-maintextDark ">CoinGecko</p>
+              <a className="text-subtextDark hover:text-maintextDark " href="https://www.coingecko.com/en/coins/0xliquidity" target="_blank" rel="noopener noreferrer">CoinGecko</a>
               <p className="text-subtextDark hover:text-maintextDark ">Disclaimer</p>
             </div>
             <div className="flex flex-col gap-4">
@@ -167,7 +167,7 @@ const Footer = () => {
         <hr className="h-[1px] border-none bg-secondary mb-5" />
         <div className="flex flex-wrap justify-between  text-sm">
           <p className="text-subtextDark">©2024 ZeroXLabs</p>
-          <a className="text-subtextDark hover:text-maintextDark" href="mailto:contact@0xLiquidityswap.co" target="_blank" rel="noopener noreferrer">contact@0xLiquidityswap.co</a>
+          <a className="text-subtextDark hover:text-maintextDark" href="mailto:info@0xliquidityswap.io" target="_blank" rel="noopener noreferrer">info@0xliquidityswap.io</a>
         </div>
       </div>
     </div>

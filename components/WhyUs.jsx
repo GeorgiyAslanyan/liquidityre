@@ -28,14 +28,14 @@ const WhyUs = () => {
   return (
     <div className="p-[15px] sm:p-[30px] lg:p-[60px] flex flex-col gap-[15px] sm:gap-[30px] items-center border border-secondary rounded-[30px]">
       <h3 className="text-[32px] sm:text-[46px] text-center monotext">
-        Why Choose ØxLiquidity?
+        Why Choose 0xLiquidity?
       </h3>
       <div className="grid grid-cols-3 gap-[30px]">
         {cardArr.map((el, index) => (
           <div
             key={el.title}
             className={`border border-highlightDark bg-moduleDark rounded-2xl p-[15px] sm:p-[30px] flex flex-col gap-[15px] ${
-              index === 3 ? "col-span-3" : "col-span-3 lg:col-span-1"
+              index === 2 ? "col-span-3 lg:col-span-1" : "col-span-3 lg:col-span-1 justify-between"
             }`}
           >
             <div className="flex gap-3 items-center">
@@ -48,18 +48,26 @@ const WhyUs = () => {
               {el.description}
             </p>
             {el.firstText ? (
-              <div className="text-sm sm:text-base text-maintextDark flex items-center gap-3">
-                <p>Secured by</p>
+              <div className="text-sm sm:text-base  text-maintextDark rounded-2xl flex items-center gap-3 px-0 sm:px-5 py-1 border-0 sm:border border-secondary">
+                <p className="block lg:hidden xl:block">Secured by</p>
                 <Image
                   src="/whyus/kleros.svg"
                   alt="kleros"
                   width={106}
                   height={40}
+                  className="my-3"
                 />
               </div>
             ) : el.secondText ? (
-              <div className="text-sm min-h-[73px] sm:text-base rounded-2xl flex justify-center items-center gap-3 lg:gap-5 2xl:gap-7 monotext px-0 sm:px-10 py-1 border-0 sm:border border-secondary">
-                <p className="block lg:hidden xl:block my-3 min-w-[63px] text-center px-3 py-2 rounded-xl text-primary bg-brandBacking">Audit</p>
+              <div className="text-sm min-h-[73px] justify-center sm:text-base rounded-2xl flex  items-center gap-3 lg:gap-3 2xl:gap-6 monotext px-0 sm:px-5 py-1 border-0 sm:border border-secondary">
+                <a
+                  className="block lg:hidden xl:block my-3 min-w-[67px] text-center px-3 py-2 rounded-xl hover:bg-[#DCB97640] ease-linear duration-100 transition-all text-primary bg-brandBacking"
+                  href="https://github.com/cyberscope-io/audits/blob/main/0xlp/audit.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Audit
+                </a>
                 <Image
                   src="/whyus/cyberscope.png"
                   alt="kleros"
@@ -67,7 +75,14 @@ const WhyUs = () => {
                   height={40}
                   className="w-[47%] sm:w-auto xl:w-[47%]"
                 />
-                <p className="block lg:hidden xl:block my-3 min-w-[63px] text-center px-3 py-2 rounded-xl text-primary bg-brandBacking">KYC</p>
+                <a
+                  className="block lg:hidden xl:block my-3 min-w-[67px] text-center px-3 py-2 rounded-xl hover:bg-[#DCB97640] ease-linear duration-100 transition-all text-primary bg-brandBacking"
+                  href="https://github.com/coinscope-co/kyc/blob/main/0xlp/kyc.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KYC
+                </a>
               </div>
             ) : null}
           </div>

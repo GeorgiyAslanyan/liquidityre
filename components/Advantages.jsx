@@ -67,7 +67,7 @@ const Advantages = () => {
             <span className="text-primary">Emerging Projects</span>
           </p>
           <p className="text-sm sm:text-base text-landingSubtext">
-            <span className="monotext">0xLiquidity</span> is poised to transform into a decentralized venture
+            We are poised to transform into a decentralized venture
             capital fund, providing crucial support to budding and active
             developers. By funding liquidity in startup projects, we will be
             nurturing the{" "}

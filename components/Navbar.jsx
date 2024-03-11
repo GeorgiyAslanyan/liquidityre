@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-3 sm:gap-4 max-h-10">
         <a
-          href="https://app.uniswap.org/swap?outputCurrency=0xd377f28245bc505190c8f34d2bfe5f215754f634&use=V2"
+          href="https://app.toadswap.org/?input=ether&output=0xd377f28245bc505190c8f34d2bfe5f215754f634"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 monotext py-3 h-12 hidden sm:flex bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-primary items-center justify-center rounded-2xl"
