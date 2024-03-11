@@ -89,7 +89,7 @@ const Footer = () => {
               <a href="http://docs.0xliquidityswap.io" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Documentation</a>
               <a className="text-subtextDark hover:text-maintextDark " href="https://www.coingecko.com/en/coins/0xliquidity" target="_blank" rel="noopener noreferrer">CoinGecko</a>
               <p className="text-subtextDark hover:text-maintextDark ">CoinMarketCap</p>
-              <p className="text-subtextDark hover:text-maintextDark ">Disclaimer</p>
+              <a className="text-subtextDark hover:text-maintextDark " href="https://docs.0xliquidityswap.io/oxlp-or-tokenomics/disclaimer" target="_blank" rel="noopener noreferrer">Disclaimer</a>
             </div>
             <div className="flex flex-col gap-4">
               <p className="text-primary font-semibold">Support</p>

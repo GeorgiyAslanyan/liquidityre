@@ -63,7 +63,7 @@ const Hero = () => {
         alt="grid"
         width={1920}
         height={1080}
-        className="z-0 bg-contain block lg:hidden pointer-events-none bg-center absolute top-0 left-0 w-full"
+        className="z-11 bg-contain block lg:hidden pointer-events-none bg-center absolute top-0 left-0 w-full"
       />
       <div className="z-10 flex flex-col items-center justify-center">
         <div className="text-center items-center justify-center flex flex-col gap-5">
@@ -93,7 +93,7 @@ const Hero = () => {
           loop
           autoPlay>
           <source src="/clock_alpha.webm" type="video/webm" />
-          {/* <source src="/clock_alpha.mp4" type="video/mp4" /> */}
+          <source src="/clock_alpha.mp4" type="video/mp4" />
         </video>
         {/* <Image
           width={700}
