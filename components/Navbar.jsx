@@ -54,14 +54,12 @@ const Navbar = () => {
           />
           <p className="hidden sm:flex">Read docs</p>
         </a>
-        <a
-          href="https://app.0xliquidityswap.io/"
+        <button
+          href="/"
           className="px-2 h-12 sm:px-4 py-3 font-semibold hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark rounded-2xl flex items-center justify-center w-[140px]"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <p>Launch App</p>
-        </a>
+        </button>
       </div>
     </div>
   );
