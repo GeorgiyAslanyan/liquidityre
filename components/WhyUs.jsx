@@ -27,7 +27,7 @@ const cardArr = [
 const WhyUs = () => {
   return (
     <div className="p-[15px] sm:p-[30px] lg:p-[60px] flex flex-col gap-[15px] sm:gap-[30px] items-center border border-secondary rounded-[30px]">
-      <h3 className="text-[32px] sm:text-[46px] text-center">
+      <h3 className="text-[32px] sm:text-[46px] text-center monotext">
         Why Choose ØxLiquidity?
       </h3>
       <div className="grid grid-cols-3 gap-[30px]">
@@ -59,7 +59,7 @@ const WhyUs = () => {
               </div>
             ) : el.secondText ? (
               <div className="text-sm min-h-[73px] sm:text-base rounded-2xl flex justify-center items-center gap-3 lg:gap-5 2xl:gap-7 monotext px-0 sm:px-10 py-1 border-0 sm:border border-secondary">
-                <p className="block lg:hidden xl:block my-3 px-3 py-2 rounded-xl text-primary bg-brandBacking">Audit</p>
+                <p className="block lg:hidden xl:block my-3 min-w-[63px] text-center px-3 py-2 rounded-xl text-primary bg-brandBacking">Audit</p>
                 <Image
                   src="/whyus/cyberscope.png"
                   alt="kleros"
@@ -67,7 +67,7 @@ const WhyUs = () => {
                   height={40}
                   className="w-[47%] sm:w-auto xl:w-[47%]"
                 />
-                <p className="block lg:hidden xl:block my-3 px-3 py-2 rounded-xl text-primary bg-brandBacking">KYC</p>
+                <p className="block lg:hidden xl:block my-3 min-w-[63px] text-center px-3 py-2 rounded-xl text-primary bg-brandBacking">KYC</p>
               </div>
             ) : null}
           </div>

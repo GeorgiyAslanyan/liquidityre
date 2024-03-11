@@ -25,7 +25,7 @@ const Navbar = () => {
           href="https://app.uniswap.org/swap?outputCurrency=0xd377f28245bc505190c8f34d2bfe5f215754f634&use=V2"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-3 h-12 hidden sm:flex bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-primary items-center justify-center rounded-2xl"
+          className="px-4 monotext py-3 h-12 hidden sm:flex bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-primary items-center justify-center rounded-2xl"
         >Buy 0xLP</a>
         <a
           href="https://linktr.ee/0xliquidity"
