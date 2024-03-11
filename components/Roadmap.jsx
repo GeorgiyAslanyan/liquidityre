@@ -122,7 +122,7 @@ const Roadmap = () => {
             key={el.title}
             className={`h-[340px] border p-7 flex ${
               !is1Open && !is2Open && !is3Open && !is4Open
-                ? "w-1/4"
+                ? "w-1/4 min-w-[253px]"
                 : (i === 0 && is1Open) ||
                   (i === 1 && is2Open) ||
                   (i === 2 && is3Open) ||
