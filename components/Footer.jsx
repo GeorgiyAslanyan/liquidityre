@@ -87,8 +87,8 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <p className="text-primary font-semibold">About</p>
               <a href="http://docs.0xliquidityswap.io" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Documentation</a>
-              <p className="text-subtextDark hover:text-maintextDark ">CoinMarketCap</p>
               <a className="text-subtextDark hover:text-maintextDark " href="https://www.coingecko.com/en/coins/0xliquidity" target="_blank" rel="noopener noreferrer">CoinGecko</a>
+              <p className="text-subtextDark hover:text-maintextDark ">CoinMarketCap</p>
               <p className="text-subtextDark hover:text-maintextDark ">Disclaimer</p>
             </div>
             <div className="flex flex-col gap-4">

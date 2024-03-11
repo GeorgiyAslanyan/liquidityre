@@ -50,13 +50,14 @@ const WhyUs = () => {
             {el.firstText ? (
               <div className="text-sm sm:text-base  text-maintextDark rounded-2xl flex items-center gap-3 px-0 sm:px-5 py-1 border-0 sm:border border-secondary">
                 <p className="block lg:hidden xl:block">Secured by</p>
+                <a className="hover:scale-105 ease-linear duration-100 transition-all" href="https://kleros.world/xLiquidity-Swap-6823cc1b2f194ea688c6e36fa5d0e2f2" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/whyus/kleros.svg"
                   alt="kleros"
                   width={106}
                   height={40}
                   className="my-3"
-                />
+                /></a>
               </div>
             ) : el.secondText ? (
               <div className="text-sm min-h-[73px] justify-center sm:text-sm rounded-2xl flex  items-center gap-3 lg:gap-3 2xl:gap-6 monotext px-0 sm:px-5 py-1 border-0 sm:border border-secondary">

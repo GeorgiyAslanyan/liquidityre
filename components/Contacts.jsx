@@ -49,7 +49,7 @@ const Contacts = () => {
             <span className="text-primary">Earn $100</span>
           </h3>
           <a
-          href="http://"
+          href="https://docs.0xliquidityswap.io/oxliquidity-or-swap/lp-bounty-hunter-program"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary w-fit hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
