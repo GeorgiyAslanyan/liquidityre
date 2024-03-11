@@ -59,9 +59,9 @@ const WhyUs = () => {
                 />
               </div>
             ) : el.secondText ? (
-              <div className="text-sm min-h-[73px] justify-center sm:text-base rounded-2xl flex  items-center gap-3 lg:gap-3 2xl:gap-6 monotext px-0 sm:px-5 py-1 border-0 sm:border border-secondary">
+              <div className="text-sm min-h-[73px] justify-center sm:text-sm rounded-2xl flex  items-center gap-3 lg:gap-3 2xl:gap-6 monotext px-0 sm:px-5 py-1 border-0 sm:border border-secondary">
                 <a
-                  className="block lg:hidden xl:block my-3 min-w-[67px] text-center px-3 py-2 rounded-xl hover:bg-[#DCB97640] ease-linear duration-100 transition-all text-primary bg-brandBacking"
+                  className="block lg:hidden xl:block my-3 min-w-[63px] text-center px-3 py-2 rounded-xl hover:bg-[#DCB97640] ease-linear duration-100 transition-all text-primary bg-brandBacking"
                   href="https://github.com/cyberscope-io/audits/blob/main/0xlp/audit.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -76,7 +76,7 @@ const WhyUs = () => {
                   className="w-[47%] sm:w-auto xl:w-[47%]"
                 />
                 <a
-                  className="block lg:hidden xl:block my-3 min-w-[67px] text-center px-3 py-2 rounded-xl hover:bg-[#DCB97640] ease-linear duration-100 transition-all text-primary bg-brandBacking"
+                  className="block lg:hidden xl:block my-3 min-w-[63px] text-center px-3 py-2 rounded-xl hover:bg-[#DCB97640] ease-linear duration-100 transition-all text-primary bg-brandBacking"
                   href="https://github.com/coinscope-co/kyc/blob/main/0xlp/kyc.png"
                   target="_blank"
                   rel="noopener noreferrer"
