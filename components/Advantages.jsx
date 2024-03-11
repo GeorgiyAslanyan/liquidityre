@@ -3,7 +3,7 @@ import React from "react";
 
 const Advantages = () => {
   return (
-    <div className="w-full relative z-10">
+    <div className="w-full relative z-[12]">
       <div className="absolute z-[8] w-full -top-10 flex justify-center">
         <div className="p-20 border w-[90%] min-h-20  border-highlightDark rounded-[30px] bg-backingDark"></div>
       </div>

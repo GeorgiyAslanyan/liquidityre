@@ -65,8 +65,8 @@ const Hero = () => {
         height={1080}
         className="z-[11] bg-contain block lg:hidden pointer-events-none bg-center absolute top-0 left-0 w-full"
       />
-      <div className="z-10 flex flex-col items-center justify-center">
-        <div className="text-center items-center justify-center flex flex-col gap-5">
+      <div className="flex flex-col items-center justify-center">
+        <div className="z-[12] text-center items-center justify-center flex flex-col gap-5">
           <h2 className="text-lg sm:text-xl">
             <span className="text-primary">Time Is Money </span> - Immediate
             Access to Your Capital
@@ -85,7 +85,7 @@ const Hero = () => {
         <video
           width="100%"
           height="100%"
-          className="-mt-10 z-[-1] -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
+          className="-mt-10 z-0 -mb-10 h-[400px] md:h-full object-cover md:object-contain pointer-events-none"
           title="Video tooltip on hover."
           poster="/pre.png"
           muted
@@ -109,7 +109,7 @@ const Hero = () => {
           height={35}
           className="px-5 sm:px-[100px] lg:px-0"
         />
-        <div className="grid grid-cols-1 md:grid-cols-3 px-5 gap-5 md:gap-20 mt-7 w-full">
+        <div className="z-[12] grid grid-cols-1 md:grid-cols-3 px-5 gap-5 md:gap-20 mt-7 w-full">
           {[{ title: "Market Cap", value: `$${marketCap}` },
   { title: "Token Price", value: `$${price}` },
   { title: "Holders", value: `${holders}` }].map((el) => (
