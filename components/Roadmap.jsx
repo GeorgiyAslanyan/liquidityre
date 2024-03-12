@@ -120,7 +120,7 @@ const Roadmap = () => {
 
   return (
     <div className="flex flex-col gap-10 items-center">
-      <h2 className="text-[32px] sm:text-5xl">Roadmap</h2>
+      <h2 className="text-[32px] sm:text-5xl leading-[1]">Roadmap</h2>
       <div className="flex gap-7 w-full justify-stretch overflow-y-auto">
         {cardArr.map((el, i) => (
           <div
