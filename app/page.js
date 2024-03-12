@@ -1,3 +1,4 @@
+'use client'
 import Advantages from "@/components/Advantages";
 import Contacts from "@/components/Contacts";
 import Divider from "@/components/Divider";

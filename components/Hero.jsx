@@ -50,7 +50,7 @@ const Hero = () => {
 
   
   return (
-    <div className="min-h-screen w-full flex justify-center items-center relative pt-[110px] pb-[150px]">
+    <div className="min-h-screen w-full flex justify-center items-center relative pt-10 md:pt-[110px] pb-[150px]">
       <Image
         src="/grid.svg"
         alt="grid"
