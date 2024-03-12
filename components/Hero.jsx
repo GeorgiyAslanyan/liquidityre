@@ -44,7 +44,7 @@ const Hero = () => {
     };
   
     fetchData();
-    const intervalId = setInterval(fetchData, 60000);
+    const intervalId = setInterval(fetchData, 300000);
     return () => clearInterval(intervalId);
   }, []);
 
