@@ -107,7 +107,7 @@ const Hero = () => {
           alt="clock"
           width={787}
           height={35}
-          className="px-5 sm:px-[100px] lg:px-0"
+          className="px-5 sm:px-[100px] lg:px-0 z-[12]"
         />
         <div className="z-[12] grid grid-cols-1 md:grid-cols-3 px-5 gap-5 md:gap-20 mt-7 w-full">
           {[{ title: "Market Cap", value: `$${marketCap}` },

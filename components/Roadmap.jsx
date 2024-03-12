@@ -79,6 +79,11 @@ const cardArr = [
         name: " Expansion of partnerships and collaborations to further enrich our ecosystem with other leading organizations.",
         success: true,
       },
+      {
+        id: 3,
+        name: " Additional developments to be announced regarding collateralization, VC funding, and Locking services.",
+        success: true,
+      },
     ],
   },
 ];
@@ -181,7 +186,7 @@ const Roadmap = () => {
                       className=""
                     />{" "} */}
                     <p className="text-sm sm:text-base text-landingSubtext">
-                      <span className="font-semibold">{el.title}</span>
+                      <span className="font-semibold">{el.title && el.title}</span>
                       {el.name}
                     </p>
                   </div>
