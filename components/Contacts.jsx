@@ -30,6 +30,12 @@ const Contacts = () => {
             expertise of a diverse group of participants to drive innovation,
             sustainability, and success in a project.
           </p>
+          <a
+          href="https://snapshot.org/#/%C3%B8xliquidity.eth"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary w-fit hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
+        >DAO <Image src="/security/arrowupright.svg" alt="arrow" width={22} height={22} /></a>
         </div>
       </div>
       <div className="flex items-center flex-col justify-center rounded-[30px] text-center overflow-hidden bg-moduleDark  px-4 sm:px-10 2xl:px-[120px] py-7 sm:py-[60px] relative border border-highlightDark">
