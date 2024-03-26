@@ -72,7 +72,7 @@ const Hero = () => {
             Access to Your Capital
           </h2>
           <h1 className="text-3xl sm:text-4xl">Pioneering <span className="text-primary">Liquidity </span> and <span className="text-primary">Venture </span>  Solutions</h1>
-          <button className="px-4 py-3 hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary gap-2 font-semibold text-backingDark rounded-2xl w-fit flex items-center justify-center">
+          <button className="px-4 py-3 hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary gap-2 text-backingDark rounded-2xl w-fit flex items-center justify-center">
             <p>Get Started</p>
             <Image
               src="/hero/arrowright.svg"
@@ -117,7 +117,7 @@ const Hero = () => {
               key={el.title}
               className="py-6 w-full px-5 lg:px-20 rounded-[20px] border border-secondary bg-backingDark flex flex-col gap-2 items-center justify-center"
             >
-              <p className="text-sm sm:text-lg font-semibold">{el.title}</p>
+              <p className="text-sm sm:text-lg">{el.title}</p>
               <p className="text-2xl sm:text-[32px] text-primary monotext">
                 {el.value}
               </p>

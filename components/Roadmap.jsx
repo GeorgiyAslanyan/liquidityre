@@ -186,7 +186,7 @@ const Roadmap = () => {
                       className=""
                     />{" "} */}
                     <p className="text-sm sm:text-base text-landingSubtext">
-                      <span className="font-semibold">{el.title && el.title}</span>
+                      <span className="">{el.title && el.title}</span>
                       {el.name}
                     </p>
                   </div>

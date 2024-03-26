@@ -85,19 +85,19 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap gap-[60px] sm:gap-[70px]">
             <div className="flex flex-col gap-4">
-              <p className="text-primary font-semibold">About</p>
+              <p className="text-primary ">About</p>
               <a href="http://docs.0xliquidityswap.io" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Documentation</a>
               <a className="text-subtextDark hover:text-maintextDark " href="https://www.coingecko.com/en/coins/0xliquidity" target="_blank" rel="noopener noreferrer">CoinGecko</a>
               <p className="text-subtextDark hover:text-maintextDark ">CoinMarketCap</p>
               <a className="text-subtextDark hover:text-maintextDark " href="https://docs.0xliquidityswap.io/" target="_blank" rel="noopener noreferrer">Disclaimer</a>
             </div>
             <div className="flex flex-col gap-4">
-              <p className="text-primary font-semibold">Support</p>
+              <p className="text-primary ">Support</p>
               <p className="text-subtextDark hover:text-maintextDark">Getting Started</p>
               <p className="text-subtextDark hover:text-maintextDark ">FAQ</p>
             </div>
             <div className="flex flex-col gap-4">
-              <p className="text-primary font-semibold">Community</p>
+              <p className="text-primary ">Community</p>
               <a href="https://t.me/ZeroXLiquidity" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Telegram</a>
               <a href="https://twitter.com/0xLiquiditySwap" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Twitter</a>
               <a href="https://medium.com/@0xLiquidity/%C3%B8xliquidity-a-heartfelt-message-to-the-defi-community-ac7b80dc082d" className="text-subtextDark hover:text-maintextDark " target="_blank" rel="noopener noreferrer">Medium</a>

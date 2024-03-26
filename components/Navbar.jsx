@@ -44,7 +44,7 @@ const Navbar = () => {
           href="https://docs.0xliquidityswap.io/"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-3 h-12 font-semibold bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-maintextDark rounded-2xl flex items-center justify-center gap-3"
+          className="px-4 py-3 h-12 bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-maintextDark rounded-2xl flex items-center justify-center gap-3"
         >
           <Image
             src="/navbar/gitbook.svg"
@@ -56,7 +56,7 @@ const Navbar = () => {
         </a>
         <button
           href="/"
-          className="px-2 h-12 sm:px-4 py-3 font-semibold hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark rounded-2xl flex items-center justify-center w-[140px]"
+          className="px-2 h-12 sm:px-4 py-3 hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark rounded-2xl flex items-center justify-center w-[140px]"
         >
           <p>Launch App</p>
         </button>
