@@ -71,7 +71,7 @@ const Hero = () => {
             <span className="text-primary">Time Is Money </span> - Immediate
             Access to Your Capital
           </h2>
-          <h1 className="text-3xl sm:text-4xl">Pioneered  <span className="text-primary">Liquidity </span> and <span className="text-primary">Venture </span>  Solutions</h1>
+          <h1 className="text-3xl sm:text-4xl">Pioneering <span className="text-primary">Liquidity </span> and <span className="text-primary">Venture </span>  Solutions</h1>
           <button className="px-4 py-3 hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary gap-2 font-semibold text-backingDark rounded-2xl w-fit flex items-center justify-center">
             <p>Get Started</p>
             <Image

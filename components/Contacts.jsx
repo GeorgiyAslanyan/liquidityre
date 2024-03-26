@@ -14,9 +14,7 @@ const Contacts = () => {
           className="absolute pointer-events-none w-full h-full object-cover left-0 top-0"
         />
         <div className="flex flex-col items-center justify-center gap-5 ">
-          <h3 className="font-semibold text-2xl sm:text-[32px]">
-            Community-Driven Development
-          </h3>
+          <h3 className="font-semibold text-2xl sm:text-[32px]">Community-Driven Development</h3>
           <Image
             src="/contacts/community.svg"
             alt="community"
@@ -47,9 +45,7 @@ const Contacts = () => {
           className="absolute pointer-events-none w-full h-full object-cover left-0 top-0"
         />
         <div className="flex flex-col items-center justify-center gap-5 ">
-          <h3 className="font-semibold text-2xl sm:text-[32px]">
-            LP Bounty Hunter Program
-          </h3>
+          <h3 className="font-semibold text-2xl sm:text-[32px]">LP Bounty Hunter Program</h3>
           <h3 className="font-semibold text-[32px] sm:text-[46px]">
             <span className="text-primary">Refer</span> new client{" "}
             <span className="text-primary">Earn $100</span>
