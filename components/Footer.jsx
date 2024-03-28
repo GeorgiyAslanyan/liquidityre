@@ -165,7 +165,7 @@ const Footer = () => {
       </div>
       <div>
         <hr className="h-[1px] border-none bg-secondary mb-5" />
-        <div className="flex flex-wrap justify-between  text-sm">
+        <div className="flex flex-wrap justify-between text-sm">
           <p className="text-subtextDark">©2024 ZeroXLabs</p>
           <a className="text-subtextDark hover:text-maintextDark" href="mailto:info@0xliquidityswap.io" target="_blank" rel="noopener noreferrer">info@0xliquidityswap.io</a>
         </div>

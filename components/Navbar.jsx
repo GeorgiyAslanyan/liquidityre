@@ -25,13 +25,13 @@ const Navbar = () => {
           href="https://app.toadswap.org/?input=ether&output=0xd377f28245bc505190c8f34d2bfe5f215754f634"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 monotext py-3 h-12 hidden sm:flex bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-primary items-center justify-center rounded-2xl"
+          className="px-4 text-sm py-3 h-10 hidden sm:flex bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-primary items-center justify-center rounded-2xl"
         >Buy 0xLP</a>
         <a
           href="https://linktr.ee/0xliquidity"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-3 h-12 bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all rounded-2xl flex items-center justify-center"
+          className="px-4 py-3 text-sm h-10 bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all rounded-2xl flex items-center justify-center"
         >
           <Image
             src="/navbar/linktree.svg"
@@ -44,7 +44,7 @@ const Navbar = () => {
           href="https://docs.0xliquidityswap.io/"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-3 h-12 bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-maintextDark rounded-2xl flex items-center justify-center gap-3"
+          className="px-4 py-3 h-10 bg-[#35353580] hover:bg-[#353535] ease-linear duration-100 transition-all text-maintextDark rounded-2xl flex items-center justify-center gap-3"
         >
           <Image
             src="/navbar/gitbook.svg"
@@ -52,11 +52,11 @@ const Navbar = () => {
             width={24}
             height={17}
           />
-          <p className="hidden sm:flex">Read docs</p>
+          <p className="hidden sm:flex text-sm">Read docs</p>
         </a>
         <button
           href="/"
-          className="px-2 h-12 sm:px-4 py-3 hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark rounded-2xl flex items-center justify-center w-[140px]"
+          className="px-2 h-10 sm:px-4 py-3 text-sm hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary text-backingDark rounded-2xl flex items-center justify-center w-[140px]"
         >
           <p>Launch App</p>
         </button>

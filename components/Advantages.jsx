@@ -27,7 +27,7 @@ const Advantages = () => {
               height={40}
             />
           </div>
-          <p className="text-2xl sm:text-[32px]">
+          <p className="text-2xl sm:text-[32px] bulky">
             Decentralized{" "}
             <span className="text-primary">Liquidity Listing</span> and{" "}
             <span className="text-primary">Auction Platform</span>
@@ -61,7 +61,7 @@ const Advantages = () => {
               height={40}
             />
           </div>
-          <p className="text-2xl sm:text-[32px] ">
+          <p className="text-2xl sm:text-[32px] bulky">
             Decentralized{" "}
             <span className="text-primary">Venture Capital</span> for{" "}
             <span className="text-primary">Emerging Projects</span>
@@ -92,7 +92,7 @@ const Advantages = () => {
               height={40}
             />
           </div>
-          <p className="text-2xl sm:text-[32px] ">
+          <p className="text-2xl sm:text-[32px] bulky">
             Advanced <span className="text-primary">Liquidity Locker</span>{" "}
             Solutions
           </p>

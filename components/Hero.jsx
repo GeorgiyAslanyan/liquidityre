@@ -67,12 +67,12 @@ const Hero = () => {
       />
       <div className="flex flex-col items-center justify-center">
         <div className="z-[12] text-center items-center justify-center flex flex-col gap-5">
-          <h2 className="text-lg sm:text-xl">
+          <h2 className="text-lg sm:text-xl lg:text-2xl neutral">
             <span className="text-primary">Time Is Money </span> - Immediate
             Access to Your Capital
           </h2>
-          <h1 className="text-3xl sm:text-4xl">Pioneering <span className="text-primary">Liquidity </span> and <span className="text-primary">Venture </span>  Solutions</h1>
-          <button className="px-4 py-3 hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary gap-2 text-backingDark rounded-2xl w-fit flex items-center justify-center">
+          <h1 className="text-3xl sm:text-4xl lg:text-[46px]">Pioneering <span className="text-primary">Liquidity </span> and <span className="text-primary">Venture </span>  Solutions</h1>
+          <button className="px-4 py-3 text-sm hover:bg-[#f8d99c] ease-linear duration-100 transition-all bg-primary gap-2 text-backingDark rounded-2xl w-fit flex items-center justify-center">
             <p>Get Started</p>
             <Image
               src="/hero/arrowright.svg"
@@ -117,7 +117,7 @@ const Hero = () => {
               key={el.title}
               className="py-6 w-full px-5 lg:px-20 rounded-[20px] border border-secondary bg-backingDark flex flex-col gap-2 items-center justify-center"
             >
-              <p className="text-sm sm:text-lg">{el.title}</p>
+              <p className="text-sm sm:text-lg bulky">{el.title}</p>
               <p className="text-2xl sm:text-[32px] text-primary monotext">
                 {el.value}
               </p>

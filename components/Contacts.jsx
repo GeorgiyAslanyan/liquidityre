@@ -14,7 +14,7 @@ const Contacts = () => {
           className="absolute pointer-events-none w-full h-full object-cover left-0 top-0"
         />
         <div className="flex flex-col items-center justify-center gap-5 ">
-          <h3 className=" text-2xl sm:text-[32px]">Community-Driven Development</h3>
+          <h3 className=" text-2xl sm:text-[32px] bulky">Community-Driven Development</h3>
           <Image
             src="/contacts/community.svg"
             alt="community"
@@ -32,7 +32,7 @@ const Contacts = () => {
           href="https://snapshot.org/#/%C3%B8xliquidity.eth"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary w-fit hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
+          className="text-primary w-fit neutral hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
         >DAO <Image src="/security/arrowupright.svg" alt="arrow" width={22} height={22} /></a>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Contacts = () => {
           className="absolute pointer-events-none w-full h-full object-cover left-0 top-0"
         />
         <div className="flex flex-col items-center justify-center gap-5 ">
-          <h3 className=" text-2xl sm:text-[32px]">LP Bounty Hunter Program</h3>
+          <h3 className=" text-2xl sm:text-[32px] bulky">LP Bounty Hunter Program</h3>
           <h3 className=" text-[32px] sm:text-[46px]">
             <span className="text-primary">Refer</span> new client{" "}
             <span className="text-primary">Earn $100</span>
@@ -54,7 +54,7 @@ const Contacts = () => {
           href="https://docs.0xliquidityswap.io/oxliquidity-or-swap/lp-bounty-hunter-program"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary w-fit hover:bg-[#DCB97640] ease-linear duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
+          className="text-primary w-fit hover:bg-[#DCB97640] ease-linear neutral duration-100 transition-all bg-brandBacking rounded-xl px-5 py-2 flex gap-3 items-center"
         >Learn more <Image src="/security/arrowupright.svg" alt="arrow" width={22} height={22} /></a>
         </div>
       </div>
